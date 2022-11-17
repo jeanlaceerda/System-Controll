@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 800px;
+    background-color: #1b1f27;
+    margin: 0 auto;
+}
+
+.divgeral {
+    margin-top: 200px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    color: white;
+}
+
+.divimg img {
+    width: 150px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.form {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.divnomecell {
+    display: flex;
+}
+
+.divnome {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+}
+
+.divnome label {
+    display: block;
+}
+
+.divnome input {
+    background-color: #252a34;
+    border: 2px solid #252a34;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 80%;
+}
+
+.divtelefone {
+    margin-bottom: 10px;
+    margin-left: 55px;
+    width: 50%;
+}
+
+.divtelefone label {
+    display: block;
+}
+
+.divtelefone input {
+    background-color: #252a34;
+    border: 2px solid #252a34;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 80%;
+}
+
+.divnascemail {
+    display: flex;
+}
+
+.divnascimento {
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.divnascimento label {
+    display: block;
+}
+
+.divnascimento input {
+    background-color: #252a34;
+    border: 2px solid #252a34;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 80%;
+}
+
+.divemail {
+    margin-bottom: 10px;
+    margin-left: 55px;
+    width: 50%;
+}
+
+.divemail label {
+    display: block;
+}
+
+.divemail input {
+    background-color: #252a34;
+    border: 2px solid #252a34;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 80%;
+}
+
+.divendereco {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+.divendereco label {
+    display: block;
+}
+
+.divendereco input {
+    background-color: #252a34;
+    border: 2px solid #252a34;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 80%;
+}

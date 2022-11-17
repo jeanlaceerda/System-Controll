@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Perfil do Usuário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="divgeral">
+        <div class="divimg">
+            <img src="img/Icone_Perfil.png">
+        </div>
+        <form class="form" id="form">
+            <div class="divnomecell">
+                <div class="divnome">
+                    <label>Nome</label>
+                    <input type="name" placeholder="Digite seu nome completo...">
+                </div>
+                <div class="divtelefone">
+                    <label>Telefone</label>
+                    <input type="tel" id="fone" name="fone" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="82 99999-9999">
+                </div>
+            </div>
+            <div class="divnascemail">
+                <div class="divnascimento">
+                    <label>Data de Nascimento</label>
+                    <input type="date" placeholder="DD/MM/YYYY">
+                </div>
+                <div class="divemail">
+                    <label>E-mail</label>
+                    <input type="email" placeholder="exemplo@exemplo.com">
+                </div>
+            </div>
+            <div class="divendereco">
+                <h2>Endereço</h2>
+                <label>Avenida/Rua</label>
+                <input type="name" placeholder="Avenida/Rua...">
+                <br>
+                <label>Nº</label>
+                <input type="number" placeholder="Nº da Casa ou Apartamento">
+                <br>
+                <label>Bairro</label>
+                <input type="name" placeholder="Bairro...">
+                <br>
+                <label>CEP</label>
+                <input type="number" placeholder="00.000-000">
+                <br>
+                <label>Complemento</label>
+                <input type="name" placeholder="Ex.: Casa A ou apt. 42">
+                <br>
+                <label>Referência</label>
+                <input type="name" placeholder="Referência do bairro...">
+                <br>
+                <label>Cidade</label>
+                <input type="name" placeholder="Maceió">
+                <br>
+                <label>UF</label>
+                <input type="name" placeholder="AL">
+            </div>
+        </form>
+        <button>Editar</button>
+        <button>Concluír</button>
+        <button>Deletar</button>
+    </div>
+</body>
+</html>
